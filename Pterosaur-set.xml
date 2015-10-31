@@ -1,0 +1,28 @@
+<?xml version="1.1"?>
+
+<PropertyList>
+ <sim>
+
+  <description>Pterosaur</description>
+  <author>Erik Hofman</author>
+  <status>alpha</status>
+  <rating>
+    <FDM type="int">1</FDM>
+    <systems type="int">0</systems>
+    <model type="int">0</model>
+    <cockpit type="int">0</cockpit>
+  </rating>
+
+
+  <flight-model>jsb</flight-model>
+  <aero>Pterosaur</aero>
+ </sim>
+
+ <controls>
+  <gear>
+   <brake-parking type="bool">true</brake-parking>
+  </gear>
+ </controls>
+
+
+</PropertyList>
