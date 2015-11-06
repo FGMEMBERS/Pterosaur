@@ -43,15 +43,33 @@
      </script>
     </binding>
    </key>
+
+   <key n="119">
+    <name>w</name>
+    <desc>Wing Fold</desc>
+    <binding>
+     <command>property-assign</command>
+     <property>/controls/flight/wing-fold</property>
+     <value type="int">1</value>
+    </binding>
+    <mod-up>
+     <binding>
+      <command>property-assign</command>
+      <property>/controls/flight/wing-fold</property>
+      <value type="int">0</value>
+     </binding>
+    </mod-up>
+   </key>
   </keyboard>
  </input>
-
-
 
  <controls>
   <gear>
    <brake-parking type="bool">true</brake-parking>
   </gear>
+  <flight>
+   <property type="int">0</property>
+  </flight>
  </controls>
 
 
