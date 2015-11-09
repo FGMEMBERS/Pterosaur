@@ -16,6 +16,17 @@
 
   <flight-model>jsb</flight-model>
   <aero>Pterosaur</aero>
+
+  <model>
+          <path>Aircraft/Pterosaur/Models/Dragon.xml</path>
+  </model>
+
+  <systems>
+		<property-rule n="100"> 
+    			<name>animation</name> 	
+    			<path>Systems/Animation.xml</path>  
+  		</property-rule>
+   </systems>
  </sim>
 
  <input>
@@ -71,6 +82,7 @@
    <property type="int">0</property>
   </flight>
  </controls>
+
 
 
 </PropertyList>

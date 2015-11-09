@@ -91,6 +91,32 @@
       <output>fcs/wing-alpha-scaled-deg</output>
     </fcs_function>
 
+    <!-- Google: y = 20.0 * cos(x + 0.25*cos(x))         -->
+    <fcs_function name="Wing Flap Motion Trailing Edge">
+      <function>
+        <product>	<!-- 20.0 * cos(x + 0.25*cos(0.75*x))     -->
+          <value>20.0</value>
+          <property>fcs/throttle-pos-norm</property>
+          <sum>
+            <cos>				<!-- cos(x + 0.25*cos(x)) -->
+              <sum>				<!-- x + 0.25*cos(x)      -->
+                <property>fcs/wing-pos-linear</property>
+                <value>-0.4</value>
+                <product>			<!-- 0.25*cos(x)          -->
+                  <value>0.25</value>
+                  <cos>				<!-- cos(x)               -->
+                    <property>fcs/wing-pos-linear</property>
+                  </cos>
+                </product>
+              </sum>
+            </cos>
+          </sum>
+        </product>
+      </function>
+      <output>fcs/wing-alpha-trailing-scaled-deg</output>
+    </fcs_function>
+
+
     <summer>
       <input>-aero/alpha-deg</input>
       <input>fcs/wing-alpha-scaled-deg</input>
