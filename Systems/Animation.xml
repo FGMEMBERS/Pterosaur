@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <PropertyList>
+
+<!-- this is really annoying - we compute all the properties in JSBSim, but they end up being tied -->
+<!-- and can't be fed to the effects system directly, so we copy them via property rule -->
+
+ <filter>
+   <type>gain</type>
+   <gain>0.025</gain>
+   <input>/fdm/jsbsim/fcs/wing-alpha-scaled-deg</input>
+   <output>/fdm/jsbsim/systems/animation/wing-alpha-animation-deg</output>
+ </filter>
+
+ <filter>
+   <type>gain</type>
+   <gain>0.025</gain>
+   <input>/fdm/jsbsim/fcs/wing-alpha-trailing-scaled-deg</input>
+   <output>/fdm/jsbsim/systems/animation/wing-alpha-trailing-animation-deg</output>
+ </filter>
+
+</PropertyList>

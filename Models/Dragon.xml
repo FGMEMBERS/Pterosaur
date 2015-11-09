@@ -1,0 +1,18 @@
+<PropertyList>
+
+       <path>scales.ac</path>
+       <offsets>
+            <x-m> 0 </x-m>
+            <y-m> 0 </y-m>
+            <z-m> -2.1 </z-m>
+	    <heading-deg>-90</heading-deg>
+        </offsets>
+
+	
+ <effect>
+    <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>
+    <object-name>WingL</object-name>
+    <object-name>WingR</object-name>
+ </effect>
+
+</PropertyList>

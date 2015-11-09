@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PropertyList>
+  <name>wingflex</name>
+  <inherits-from>Effects/model-wingflex-organic</inherits-from>
+  <parameters>
+    <wingflex-alpha><use>/fdm/jsbsim/systems/animation/wing-alpha-animation-deg</use></wingflex-alpha>
+    <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/wing-alpha-trailing-animation-deg</use></wingflex-trailing-alpha>
+  </parameters>
+</PropertyList>
