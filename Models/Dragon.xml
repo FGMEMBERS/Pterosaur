@@ -8,6 +8,18 @@
 	    <heading-deg>-90</heading-deg>
         </offsets>
 
+  <model>
+    <path>Aircraft/Pterosaur/Models/Effects/fire.xml</path>
+      <offsets>
+		 <x-m>0.0</x-m>
+		 <y-m>-2.2</y-m>
+		 <z-m>1.0</z-m>
+		 <pitch-deg>120</pitch-deg>
+		 <heading-deg>-90</heading-deg>
+		 <roll-deg>0</roll-deg>
+	 </offsets>	
+  </model>
+
 	
  <effect>
     <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>

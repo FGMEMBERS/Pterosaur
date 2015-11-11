@@ -6,5 +6,7 @@
   <parameters>
     <wingflex-alpha><use>/fdm/jsbsim/systems/animation/wing-alpha-animation-deg</use></wingflex-alpha>
     <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/wing-alpha-trailing-animation-deg</use></wingflex-trailing-alpha>
+    <wingsweep-factor><use>/fdm/jsbsim/systems/animation/wingsweep-factor</use></wingsweep-factor>
+
   </parameters>
 </PropertyList>

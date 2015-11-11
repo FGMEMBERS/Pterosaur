@@ -18,4 +18,11 @@
    <output>/fdm/jsbsim/systems/animation/wing-alpha-trailing-animation-deg</output>
  </filter>
 
+ <filter>
+   <type>gain</type>
+   <gain>1.0</gain>
+   <input>/fdm/jsbsim/fcs/wing-fold</input>
+   <output>/fdm/jsbsim/systems/animation/wingsweep-factor</output>
+ </filter>
+
 </PropertyList>
