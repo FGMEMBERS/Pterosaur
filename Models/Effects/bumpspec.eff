@@ -7,8 +7,9 @@
     <normalmap-enabled type="int"> 1 </normalmap-enabled>
     <normalmap-dds type="int"> 0 </normalmap-dds>
     <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
+  </parameters>
 
-<!--
+
     <generate>
       <tangent type="int">6</tangent>
       <binormal type="int">7</binormal>
@@ -58,7 +59,7 @@
       </program>
     </pass>
   </technique>
--->
 
-  </parameters>
+
+
 </PropertyList>
