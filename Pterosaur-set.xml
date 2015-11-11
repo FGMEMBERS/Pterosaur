@@ -72,8 +72,6 @@
     </mod-up>
    </key>
 
-
-
    <key n="119">
     <name>w</name>
     <desc>Wing Fold</desc>
@@ -90,6 +88,7 @@
      </binding>
     </mod-up>
    </key>
+
   </keyboard>
  </input>
 
