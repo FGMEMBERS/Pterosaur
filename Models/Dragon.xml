@@ -21,21 +21,17 @@
  </model>
 
  <effect>
+   <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>
+   <object-name>WingL</object-name>
+   <object-name>WingR</object-name>
+ </effect>
+
+ <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
    <object-name>Body</object-name>
-   <object-name>ArmL</object-name>
-   <object-name>ArmR</object-name>
    <object-name>FootL</object-name>
    <object-name>FootR</object-name>
    <object-name>Tail</object-name>
- </effect>
-  
- <effect>
-   <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>
-   <object-name>ArmL</object-name>
-   <object-name>ArmR</object-name>
-   <object-name>WingL</object-name>
-   <object-name>WingR</object-name>
  </effect>
 
 </PropertyList>
