@@ -25,4 +25,18 @@
    <output>/fdm/jsbsim/systems/animation/wingsweep-factor</output>
  </filter>
 
+ <filter>
+   <type>gain</type>
+   <gain>1.432</gain>
+   <input>/fdm/jsbsim/fcs/elevator-pos-rad</input>
+   <output>/fdm/jsbsim/systems/animation/tail-alpha-animation-deg</output>
+ </filter>
+
+ <filter>
+   <type>gain</type>
+   <gain>2.149</gain>
+   <input>/fdm/jsbsim/fcs/tail-alpha-trailing-scaled-rad</input>
+   <output>/fdm/jsbsim/systems/animation/tail-alpha-trailing-animation-deg</output>
+ </filter>
+
 </PropertyList>
