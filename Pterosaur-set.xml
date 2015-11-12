@@ -94,6 +94,7 @@
  <controls>
   <gear>
    <brake-parking type="bool">true</brake-parking>
+   <tail-rotate type="int">1</tail-rotate>
   </gear>
   <flight>
    <property type="int">0</property>
