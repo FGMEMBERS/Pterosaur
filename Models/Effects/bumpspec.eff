@@ -9,26 +9,25 @@
     <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
   </parameters>
 
+  <generate>
+    <tangent type="int">6</tangent>
+    <binormal type="int">7</binormal>
+  </generate>
 
-    <generate>
-      <tangent type="int">6</tangent>
-      <binormal type="int">7</binormal>
-    </generate>
-
-    <technique n="4">
-           <pass>
-                   <program>
-                           <attribute>
-                                   <name>tangent</name>
-                                   <index>6</index>
-                           </attribute>
-                           <attribute>
-                                   <name>binormal</name>
-                                   <index>7</index>
-                           </attribute>
-                   </program>
-           </pass>
-   </technique>
+  <technique n="4">
+   <pass>
+     <program>
+       <attribute>
+         <name>tangent</name>
+         <index>6</index>
+       </attribute>
+       <attribute>
+         <name>binormal</name>
+         <index>7</index>
+       </attribute>
+     </program>
+   </pass>
+  </technique>
 
   <technique n="7">
     <pass>
@@ -59,7 +58,5 @@
       </program>
     </pass>
   </technique>
-
-
 
 </PropertyList>

@@ -2,9 +2,76 @@
 
 <PropertyList>
   <name>tailsweep</name>
+
   <inherits-from>Effects/model-wingflex-organic</inherits-from>
   <parameters>
+    <normalmap-enabled type="int"> 1 </normalmap-enabled>
+    <normalmap-dds type="int"> 0 </normalmap-dds>
+    <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
+
     <wingflex-alpha><use>/fdm/jsbsim/systems/animation/tail-alpha-animation-deg</use></wingflex-alpha>
     <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/tail-alpha-trailing-animation-deg</use></wingflex-trailing-alpha>
+
+    <normalmap-enabled type="int"> 1 </normalmap-enabled>
+    <normalmap-dds type="int"> 0 </normalmap-dds>
+    <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
+    <texture n="2">
+      <image>Aircraft/Pterosaur/Models/body_normals.png</image>
+      <filter>linear-mipmap-linear</filter>
+      <wrap-s>clamp</wrap-s>
+      <wrap-t>clamp</wrap-t>
+      <internal-format>normalized</internal-format>
+    </texture>
   </parameters>
+
+  <generate>
+    <tangent type="int">6</tangent>
+    <binormal type="int">7</binormal>
+  </generate>
+
+  <technique n="4">
+   <pass>
+     <program>
+       <attribute>
+         <name>tangent</name>
+         <index>6</index>
+       </attribute>
+       <attribute>
+         <name>binormal</name>
+         <index>7</index>
+       </attribute>
+     </program>
+   </pass>
+  </technique>
+
+  <technique n="7">
+    <pass>
+      <program>
+        <attribute>
+          <name>tangent</name>
+          <index>6</index>
+        </attribute>
+        <attribute>
+          <name>binormal</name>
+          <index>7</index>
+        </attribute>
+      </program>
+    </pass>
+  </technique>
+
+  <technique n="9">
+    <pass>
+      <program>
+        <attribute>
+          <name>tangent</name>
+          <index>6</index>
+        </attribute>
+        <attribute>
+          <name>binormal</name>
+          <index>7</index>
+        </attribute>
+      </program>
+    </pass>
+  </technique>
+
 </PropertyList>

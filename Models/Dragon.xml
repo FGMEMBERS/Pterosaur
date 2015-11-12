@@ -22,7 +22,7 @@
 
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/tailsweep</inherits-from>
-<!--   <object-name>Tail</object-name> -->
+   <object-name>Tail</object-name>
  </effect>
 
  <effect>
@@ -34,11 +34,6 @@
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
    <object-name>Body</object-name>
-   <object-name>Tail</object-name>
-<!--
-   <object-name>ArmL</object-name>
-   <object-name>ArmR</object-name>
--->
  </effect>
 
 </PropertyList>
