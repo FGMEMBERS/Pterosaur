@@ -7,26 +7,25 @@
   <author>Erik Hofman</author>
   <status>alpha</status>
   <rating>
-    <FDM type="int">1</FDM>
-    <systems type="int">0</systems>
-    <model type="int">0</model>
-    <cockpit type="int">0</cockpit>
+   <FDM type="int">2</FDM>
+   <systems type="int">2</systems>
+   <model type="int">2</model>
+   <cockpit type="int">0</cockpit>
   </rating>
-
 
   <flight-model>jsb</flight-model>
   <aero>Pterosaur</aero>
 
   <model>
-          <path>Aircraft/Pterosaur/Models/Dragon.xml</path>
+   <path>Aircraft/Pterosaur/Models/Dragon.xml</path>
   </model>
 
   <systems>
-		<property-rule n="100"> 
-    			<name>animation</name> 	
-    			<path>Systems/Animation.xml</path>  
-  		</property-rule>
-   </systems>
+   <property-rule n="100"> 
+    <name>animation</name> 	
+    <path>Systems/Animation.xml</path>  
+   </property-rule>
+  </systems>
  </sim>
 
  <input>

@@ -5,10 +5,6 @@
 
   <inherits-from>Effects/model-wingflex-organic</inherits-from>
   <parameters>
-    <normalmap-enabled type="int"> 1 </normalmap-enabled>
-    <normalmap-dds type="int"> 0 </normalmap-dds>
-    <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
-
     <wingflex-alpha><use>/fdm/jsbsim/systems/animation/tail-alpha-animation-deg</use></wingflex-alpha>
     <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/tail-alpha-trailing-animation-deg</use></wingflex-trailing-alpha>
 

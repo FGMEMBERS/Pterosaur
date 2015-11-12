@@ -32,8 +32,48 @@
  </effect>
 
  <effect>
+   <inherits-from>Aircraft/Pterosaur/Models/Effects/legretract</inherits-from>
+   <object-name>FootL</object-name>
+   <object-name>FootR</object-name>
+ </effect>
+
+ <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
    <object-name>Body</object-name>
  </effect>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Head</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-pos-rad</property>
+  <factor>57.3</factor>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m>-2.35</y-m>
+   <z-m> 2.1</z-m>
+  </center>
+  <axis>
+   <x> 0.0</x>
+   <y> 0.0</y>
+   <z> 1.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Head</object-name>
+  <property>/fdm/jsbsim/fcs/tail-alpha-trailing-scaled-rad</property>
+  <factor>57.3</factor>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m>-2.35</y-m>
+   <z-m> 2.1</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y> 0.0</y>
+   <z> 0.0</z>
+  </axis>
+ </animation>
 
 </PropertyList>

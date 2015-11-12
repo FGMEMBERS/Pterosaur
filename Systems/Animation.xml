@@ -39,4 +39,11 @@
    <output>/fdm/jsbsim/systems/animation/tail-alpha-trailing-animation-deg</output>
  </filter>
 
+ <filter>
+   <type>gain</type>
+   <gain>0.5</gain>
+   <input>/fdm/jsbsim/gear/gear-pos-norm</input>
+   <output>/fdm/jsbsim/systems/animation/leg-alpha-animation-deg</output>
+ </filter>
+
 </PropertyList>
