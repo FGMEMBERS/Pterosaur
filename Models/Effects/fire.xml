@@ -28,6 +28,11 @@
      <phi-min-deg>0.0</phi-min-deg>
      <phi-max-deg>10</phi-max-deg>
      <speed-mps>
+<!--
+       <property>velocities/airspeed-kt</property>
+       <factor>0.34</factor>
+       <offset>20</offset>
+-->
        <value>20</value>
        <spread>5</spread>
      </speed-mps>

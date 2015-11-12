@@ -13,7 +13,7 @@
    <path>Aircraft/Pterosaur/Models/Effects/fire.xml</path>
    <offsets>
      <x-m>0.0</x-m>
-     <y-m>-2.5</y-m>
+     <y-m>-2.75</y-m>
      <z-m>2.0</z-m>
      <pitch-deg>90</pitch-deg>
      <heading-deg>-90</heading-deg>
@@ -32,11 +32,13 @@
    <object-name>WingR</object-name>
  </effect>
 
+<!--
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/legretract</inherits-from>
    <object-name>FootL</object-name>
    <object-name>FootR</object-name>
  </effect>
+-->
 
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
