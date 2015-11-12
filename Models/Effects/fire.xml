@@ -4,105 +4,104 @@
 <PropertyList>
 
 <particlesystem>
-	 <!-- <type>trail</type>-->
-	 <name>Fire</name>
-	 <texture>smoke.png</texture>
-	 <emissive>true</emissive>
-	 <lighting>false</lighting>
-	 <condition>
-		<equals>
-			<property>/controls/effects/fire</property>
-			<value>1</value>
-		</equals>
-	 </condition>
+   <!-- <type>trail</type>-->
+   <name>Fire</name>
+   <texture>smoke.png</texture>
+   <emissive>true</emissive>
+   <lighting>false</lighting>
+   <condition>
+    <equals>
+      <property>/controls/effects/fire</property>
+      <value>1</value>
+    </equals>
+   </condition>
 
-		 
-	 <attach>local</attach>
-	 
-	 <placer>
-		 <type>point</type>
-	 </placer>
-	 
-	 <shooter>
-		 <theta-min-deg>0</theta-min-deg>
-		 <theta-max-deg>10</theta-max-deg>
-		 <phi-min-deg>0.0</phi-min-deg>
-		 <phi-max-deg>10</phi-max-deg>
-		 <speed-mps>
-		 	<value>20</value>
-		 	<spread>5</spread>
-		 </speed-mps>
-		 <rotation-speed>
-			<x-min-deg-sec>1</x-min-deg-sec>
-			<y-min-deg-sec>1</y-min-deg-sec>
-			<z-min-deg-sec>1</z-min-deg-sec>
-			<x-max-deg-sec>15</x-max-deg-sec>
-			<y-max-deg-sec>15</y-max-deg-sec>
-			<z-max-deg-sec>15</z-max-deg-sec>
-		 </rotation-speed>
-	 </shooter>
-	 
-	 <counter>
-		 <particles-per-sec>
-			 <value>200</value>
-			 <spread>0</spread>
-		 </particles-per-sec>
-	 </counter>
-	 
-	 <align>billboard</align>
-	 
-	 <particle>
-		 <start>
-			 <color>
-				<red>
-						<value>1.0</value>
-					</red>
-					<green>
-						<value>0.6</value>
-					</green>
-					<blue>
-						<value>0.2</value>
-					</blue>
-					<alpha>
-						<value>0.3</value>
-					</alpha>
-			 </color>
-			 <size>
-				 <value>0.4</value>
-			 </size>
-		 </start>
-		 <end>
-			 <color>
-				 <red>
-						<value>0.95</value>
-					</red>
-					<green>
-						<value>0.55</value>
-					</green>
-					<blue>
-						<value>0.0</value>
-					</blue>
-					<alpha>
-						<value>0.05</value>
-					</alpha>
-			 </color>
-			 <size>
-				 <value>1.5</value>
-			 </size>
-		 </end>
-		 <life-sec>
-			 <value>1</value>
-		 </life-sec>
-		 <mass-kg>5.0</mass-kg>
-		 <radius-m>0.1</radius-m>
-	 </particle>
-	 
-	 <program>
-		 <fluid>air</fluid>
-		 <gravity type="bool">true</gravity>
-		 <wind type="bool">false</wind>
-	 </program>
-	 
+   <attach>local</attach>
+   
+   <placer>
+     <type>point</type>
+   </placer>
+   
+   <shooter>
+     <theta-min-deg>0</theta-min-deg>
+     <theta-max-deg>10</theta-max-deg>
+     <phi-min-deg>0.0</phi-min-deg>
+     <phi-max-deg>10</phi-max-deg>
+     <speed-mps>
+       <value>20</value>
+       <spread>5</spread>
+     </speed-mps>
+     <rotation-speed>
+      <x-min-deg-sec>1</x-min-deg-sec>
+      <y-min-deg-sec>1</y-min-deg-sec>
+      <z-min-deg-sec>1</z-min-deg-sec>
+      <x-max-deg-sec>15</x-max-deg-sec>
+      <y-max-deg-sec>15</y-max-deg-sec>
+      <z-max-deg-sec>15</z-max-deg-sec>
+     </rotation-speed>
+   </shooter>
+   
+   <counter>
+     <particles-per-sec>
+       <value>200</value>
+       <spread>0</spread>
+     </particles-per-sec>
+   </counter>
+   
+   <align>billboard</align>
+   
+   <particle>
+     <start>
+       <color>
+        <red>
+            <value>1.0</value>
+          </red>
+          <green>
+            <value>0.6</value>
+          </green>
+          <blue>
+            <value>0.2</value>
+          </blue>
+          <alpha>
+            <value>0.3</value>
+          </alpha>
+       </color>
+       <size>
+         <value>0.4</value>
+       </size>
+     </start>
+     <end>
+       <color>
+         <red>
+            <value>0.95</value>
+          </red>
+          <green>
+            <value>0.55</value>
+          </green>
+          <blue>
+            <value>0.0</value>
+          </blue>
+          <alpha>
+            <value>0.05</value>
+          </alpha>
+       </color>
+       <size>
+         <value>1.5</value>
+       </size>
+     </end>
+     <life-sec>
+       <value>1</value>
+     </life-sec>
+     <mass-kg>5.0</mass-kg>
+     <radius-m>0.1</radius-m>
+   </particle>
+   
+   <program>
+     <fluid>air</fluid>
+     <gravity type="bool">true</gravity>
+     <wind type="bool">false</wind>
+   </program>
+   
 </particlesystem>
 
 </PropertyList>

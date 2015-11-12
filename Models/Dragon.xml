@@ -9,6 +9,7 @@
  </offsets>
 
  <model>
+   <name>Fire</name>
    <path>Aircraft/Pterosaur/Models/Effects/fire.xml</path>
    <offsets>
      <x-m>0.0</x-m>
@@ -45,6 +46,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Head</object-name>
+  <object-name>Fire</object-name>
   <property>/fdm/jsbsim/fcs/rudder-pos-rad</property>
   <factor>57.3</factor>
   <center>
@@ -62,6 +64,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Head</object-name>
+  <object-name>Fire</object-name>
   <property>/fdm/jsbsim/fcs/tail-alpha-trailing-scaled-rad</property>
   <factor>57.3</factor>
   <center>
