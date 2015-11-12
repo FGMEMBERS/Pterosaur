@@ -34,7 +34,7 @@
 
  <filter>
    <type>gain</type>
-   <gain>4.298</gain>
+   <gain>2.149</gain>
    <input>/fdm/jsbsim/fcs/tail-alpha-trailing-scaled-rad</input>
    <output>/fdm/jsbsim/systems/animation/tail-alpha-trailing-animation-deg</output>
  </filter>

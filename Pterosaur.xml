@@ -264,7 +264,7 @@
  <system file="Ornithopter Controls.xml"/>
  <system file="Landing Gear.xml"/>
  <system file="Wing Motion.xml"/>
- <system file="Tail.xml"/>
+ <system file="Effects.xml"/>
 
  <flight_control name="FCS: Pterosaur">
  </flight_control>

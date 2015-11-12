@@ -85,7 +85,7 @@
    <type>rotate</type>
    <object-name>Tail</object-name>
    <property>controls/gear/tail-rotate</property>
-   <factor>90</factor>
+   <factor>40</factor>
    <center>
    <x-m> 0.0</x-m>
    <y-m> 1.27</y-m>
