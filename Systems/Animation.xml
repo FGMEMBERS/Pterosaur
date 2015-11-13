@@ -20,8 +20,9 @@
 
  <filter>
    <type>gain</type>
-   <gain>1.0</gain>
+   <gain>-1.0</gain>
    <input>/fdm/jsbsim/fcs/wing-fold</input>
+   <reference>1.0</reference>
    <output>/fdm/jsbsim/systems/animation/wingsweep-factor</output>
  </filter>
 
