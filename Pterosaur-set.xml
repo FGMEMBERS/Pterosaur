@@ -20,6 +20,10 @@
    <path>Aircraft/Pterosaur/Models/Dragon.xml</path>
   </model>
 
+  <startup>
+    <splash-texture>Aircraft/Pterosaur/dragon_splash.png</splash-texture>
+  </startup>
+
   <systems>
    <property-rule n="100"> 
     <name>animation</name> 	
