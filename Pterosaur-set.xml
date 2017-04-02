@@ -1,4 +1,4 @@
-<?xml version="1.1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
  <sim>
@@ -22,7 +22,7 @@
   <tags>
    <tag>fictional</tag>
    <tag>variable-geometry</tag>
-  <tags>
+  </tags>
 
   <model>
    <path>Aircraft/Pterosaur/Models/Dragon.xml</path>
