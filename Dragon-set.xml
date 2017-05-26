@@ -3,9 +3,10 @@
 <PropertyList>
  <sim>
 
-  <description>Pterosaur</description>
+  <description>Scales the Dragon</description>
   <long-description>
-   Pterosaurs are flying reptiles of the extinct clade or order Pterosauria. They existed from the late Triassic to the end of the Cretaceous (228 to 66 million years ago). Pterosaurs are the earliest vertebrates known to have evolved powered flight. Their wings were formed by a membrane of skin, muscle, and other tissues stretching from the ankles to a dramatically lengthened fourth finger.
+   The FDM is modeled after Pterosaurs which are flying reptiles of the extinct clade or order Pterosauria. They existed from the late Triassic to the end of the Cretaceous (228 to 66 million years ago). Pterosaurs are the earliest vertebrates known to have evolved powered flight. Their wings were formed by a membrane of skin, muscle, and other tissues stretching from the ankles to a dramatically lengthened fourth finger.
+   The 3D model is based on a dragon which is a legendary creature, typically scaled or fire-spewing and with serpentine, reptilian or avian traits, that features in the myths of many cultures around world.
   </long-description>
   <author>Erik Hofman</author>
   <status>alpha</status>
@@ -24,7 +25,7 @@
   </tags>
 
   <model>
-   <path>Aircraft/Pterosaur/Models/Pterosaur.xml</path>
+   <path>Aircraft/Pterosaur/Models/Dragon.xml</path>
   </model>
 
   <startup>
