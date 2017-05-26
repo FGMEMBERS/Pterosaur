@@ -29,8 +29,14 @@
   </model>
 
   <startup>
-    <splash-texture>Aircraft/Pterosaur/dragon_splash.png</splash-texture>
   </startup>
+  <previews>
+    <preview>
+      <type>exterior</type>
+      <path>dragon_splash.png</path>
+      <splash type="bool">true</splash>
+    </preview>
+  </previews>
 
   <systems>
    <property-rule n="100"> 
