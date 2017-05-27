@@ -7,6 +7,7 @@
     <normalmap-enabled type="int"> 1 </normalmap-enabled>
     <normalmap-dds type="int"> 0 </normalmap-dds>
     <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
+    <reflection-correction>-0.67</reflection-correction>
   </parameters>
 
   <generate>

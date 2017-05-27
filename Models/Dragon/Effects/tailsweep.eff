@@ -12,7 +12,7 @@
     <normalmap-dds type="int"> 0 </normalmap-dds>
     <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
     <texture n="2">
-      <image>Aircraft/Pterosaur/Models/pteskin-n.png</image>
+      <image>Aircraft/Pterosaur/Models/Dragon/body_normals.png</image>
       <filter>linear-mipmap-linear</filter>
       <wrap-s>clamp</wrap-s>
       <wrap-t>clamp</wrap-t>

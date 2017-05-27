@@ -1,0 +1,77 @@
+<PropertyList>
+
+ <path>pterosaur.ac</path>
+ <offsets>
+   <x-m> 0 </x-m>
+   <y-m> 0 </y-m>
+   <z-m> 0 </z-m>
+   <heading-deg>-90</heading-deg>
+ </offsets>
+
+ <effect>
+   <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>
+   <object-name>wings</object-name>
+ </effect>
+
+ <effect>
+   <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
+   <object-name>body</object-name>
+ </effect>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>head</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-pos-rad</property>
+  <factor>40.3</factor>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m>-0.45</y-m>
+   <z-m> 0.05</z-m>
+  </center>
+  <axis>
+   <x> 0.0</x>
+   <y> 0.0</y>
+   <z> 1.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>head</object-name>
+  <property>/fdm/jsbsim/fcs/tail-alpha-trailing-scaled-rad</property>
+  <factor>33.3</factor>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m>-0.45</y-m>
+   <z-m> 0.05</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y> 0.0</y>
+   <z> 0.0</z>
+  </axis>
+ </animation>
+
+ <effect>
+   <inherits-from>Aircraft/Pterosaur/Models/Effects/tailsweep</inherits-from>
+   <object-name>body</object-name>
+ </effect>
+
+ <animation>
+   <type>rotate</type>
+   <object-name>body</object-name>
+   <property>controls/gear/tail-rotate</property>
+   <factor>45</factor>
+   <center>
+   <x-m> 0.0</x-m>
+   <y-m> 0.0</y-m>
+   <z-m> 0.0</z-m>
+  </center>
+  <axis>
+   <x> 0.0</x>
+   <y> 0.0</y>
+   <z> 1.0</z>
+  </axis>
+ </animation>
+
+</PropertyList>

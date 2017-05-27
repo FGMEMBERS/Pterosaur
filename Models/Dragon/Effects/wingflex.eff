@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-  <name>tailsweep</name>
-
-  <inherits-from>Aircraft/Pterosaur/Effects/model-tailsweep-organic</inherits-from>
+  <name>wingflex</name>
+  <inherits-from>Effects/model-wingflex-organic</inherits-from>
   <parameters>
-    <wingflex-alpha><use>/fdm/jsbsim/systems/animation/tail-alpha-animation-deg</use></wingflex-alpha>
-    <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/tail-alpha-trailing-animation-deg</use></wingflex-trailing-alpha>
+    <wingflex-alpha><use>/fdm/jsbsim/systems/animation/wing-alpha-animation-deg</use></wingflex-alpha>
+    <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/wing-alpha-trailing-animation-deg</use></wingflex-trailing-alpha>
+    <wingsweep-factor><use>/fdm/jsbsim/systems/animation/wingsweep-factor</use></wingsweep-factor>
 
     <normalmap-enabled type="int"> 1 </normalmap-enabled>
     <normalmap-dds type="int"> 0 </normalmap-dds>
     <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
     <texture n="2">
-      <image>Aircraft/Pterosaur/Models/pteskin-n.png</image>
+      <image>Aircraft/Pterosaur/Models/Dragon/body_normals.png</image>
       <filter>linear-mipmap-linear</filter>
       <wrap-s>clamp</wrap-s>
       <wrap-t>clamp</wrap-t>

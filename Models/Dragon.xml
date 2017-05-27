@@ -1,6 +1,6 @@
 <PropertyList>
 
- <path>scales.ac</path>
+ <path>Dragon/scales.ac</path>
  <offsets>
    <x-m> 0 </x-m>
    <y-m> 0 </y-m>
@@ -10,7 +10,7 @@
 
  <model>
    <name>Fire</name>
-   <path>Aircraft/Pterosaur/Models/Effects/fire.xml</path>
+   <path>Aircraft/Pterosaur/Models/Dragon/Effects/fire.xml</path>
    <offsets>
      <x-m>0.0</x-m>
      <y-m>-3.25</y-m>
@@ -22,21 +22,21 @@
  </model>
 
  <effect>
-   <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>
+   <inherits-from>Aircraft/Pterosaur/Models/Dragon/Effects/wingflex</inherits-from>
    <object-name>WingL</object-name>
    <object-name>WingR</object-name>
  </effect>
 
 <!--
  <effect>
-   <inherits-from>Aircraft/Pterosaur/Models/Effects/legretract</inherits-from>
+   <inherits-from>Aircraft/Pterosaur/Models/Dragon/Effects/legretract</inherits-from>
    <object-name>FootL</object-name>
    <object-name>FootR</object-name>
  </effect>
 -->
 
  <effect>
-   <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
+   <inherits-from>Aircraft/Pterosaur/Models/Dragon/Effects/bumpspec-body</inherits-from>
    <object-name>Body</object-name>
  </effect>
 
@@ -77,7 +77,7 @@
  </animation>
 
  <effect>
-   <inherits-from>Aircraft/Pterosaur/Models/Effects/tailsweep</inherits-from>
+   <inherits-from>Aircraft/Pterosaur/Models/Dragon/Effects/tailsweep</inherits-from>
    <object-name>Tail</object-name>
  </effect>
 

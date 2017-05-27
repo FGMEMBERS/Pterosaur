@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-  <name>legretract</name>
-
-  <inherits-from>Effects/model-wingflex-organic</inherits-from>
+  <name>Aircraft/Pterosaur/Models/Dragon/Effects/bumpspec</name>
+  <inherits-from>Effects/model-combined-deferred</inherits-from>
   <parameters>
-    <wingflex-alpha><use>/fdm/jsbsim/systems/animation/leg-alpha-animation-deg</use></wingflex-alpha>
-    <wingflex-trailing-alpha><use>/fdm/jsbsim/systems/animation/leg-alpha-animation-deg</use></wingflex-trailing-alpha>
-
     <normalmap-enabled type="int"> 1 </normalmap-enabled>
     <normalmap-dds type="int"> 0 </normalmap-dds>
     <normalmap-tiling type="float"> 1.0 </normalmap-tiling>
-    <texture n="2">
-      <image>Aircraft/Pterosaur/Models/body_normals.png</image>
-      <filter>linear-mipmap-linear</filter>
-      <wrap-s>clamp</wrap-s>
-      <wrap-t>clamp</wrap-t>
-      <internal-format>normalized</internal-format>
-    </texture>
   </parameters>
 
   <generate>
