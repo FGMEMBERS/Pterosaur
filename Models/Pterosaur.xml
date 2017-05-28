@@ -10,23 +10,28 @@
 
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/wingflex</inherits-from>
-   <object-name>wings</object-name>
+   <object-name>Body</object-name>
  </effect>
 
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-body</inherits-from>
-   <object-name>body</object-name>
+   <object-name>Head</object-name>
+ </effect>
+
+ <effect>
+   <inherits-from>Aircraft/Pterosaur/Models/Effects/bumpspec-eyes</inherits-from>
+   <object-name>Eyes</object-name>
  </effect>
 
  <animation>
   <type>rotate</type>
-  <object-name>head</object-name>
+  <object-name>Head</object-name>
   <property>/fdm/jsbsim/fcs/rudder-pos-rad</property>
   <factor>40.3</factor>
   <center>
    <x-m> 0.0</x-m>
-   <y-m>-0.45</y-m>
-   <z-m> 0.05</z-m>
+   <y-m>-0.65</y-m>
+   <z-m> 0.25</z-m>
   </center>
   <axis>
    <x> 0.0</x>
@@ -37,13 +42,13 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>head</object-name>
+  <object-name>Head</object-name>
   <property>/fdm/jsbsim/fcs/tail-alpha-trailing-scaled-rad</property>
   <factor>33.3</factor>
   <center>
    <x-m> 0.0</x-m>
-   <y-m>-0.45</y-m>
-   <z-m> 0.05</z-m>
+   <y-m>-0.65</y-m>
+   <z-m> 0.25</z-m>
   </center>
   <axis>
    <x>-1.0</x>
@@ -52,14 +57,15 @@
   </axis>
  </animation>
 
+<!--
  <effect>
    <inherits-from>Aircraft/Pterosaur/Models/Effects/tailsweep</inherits-from>
-   <object-name>body</object-name>
+   <object-name>Body</object-name>
  </effect>
 
  <animation>
    <type>rotate</type>
-   <object-name>body</object-name>
+   <object-name>Body</object-name>
    <property>controls/gear/tail-rotate</property>
    <factor>45</factor>
    <center>
@@ -73,5 +79,6 @@
    <z> 1.0</z>
   </axis>
  </animation>
+-->
 
 </PropertyList>
