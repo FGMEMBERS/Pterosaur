@@ -6,7 +6,7 @@
 
  <filter>
    <type>gain</type>
-   <gain>0.025</gain>
+   <gain>0.05</gain>
    <input>/fdm/jsbsim/fcs/wing-alpha-scaled-deg</input>
    <output>/fdm/jsbsim/systems/animation/wing-alpha-animation-deg</output>
  </filter>
